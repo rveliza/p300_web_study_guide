@@ -1,0 +1,130 @@
+[
+    {
+        "id": "lim_0001",
+        "tags": ["aircraft_general", "weights"],
+        "weights": "pounds",
+        "question": "Max Ramp Weight",
+        "possible_answers": ["18,078", "17,968", "16,865", "13,999", "18,497", "18,387", "17,042", "14,220", "18,617", "18,551", "17,272", "14,263"],
+        "correct_answer": {"std": "18,078", "SB_505_00_0008": "18,497", "P300E": "18,617"}
+    },
+    {
+        "id": "lim_0002",
+        "tags": ["aircraft_general", "weights"],
+        "weights": "pounds",
+        "question": "Max Takeoff Weight",
+        "possible_answers": ["18,078", "17,968", "16,865", "13,999", "18,497", "18,387", "17,042", "14,220", "18,617", "18,551", "17,272", "14,263"],
+        "correct_answer": {"std": "17,968", "SB_505_00_0008": "18,387", "P300E": "18,551"}
+    },
+    {
+        "id": "lim_0003",
+        "tags": ["aircraft_general", "weights"],
+        "weights": "pounds",
+        "question": "Max Landing Weight",
+        "possible_answers": ["18,078", "17,968", "16,865", "13,999", "18,497", "18,387", "17,042", "14,220", "18,617", "18,551", "17,272", "14,263"],
+        "correct_answer": {"std": "16,865", "SB_505_00_0008": "17,042", "P300E": "17,272"}
+    },
+    {
+        "id": "lim_0004",
+        "tags": ["aircraft_general", "weights"],
+        "weights": "pounds",
+        "question": "Max Zero Fuel Weight",
+        "possible_answers": ["18,078", "17,968", "16,865", "13,999", "18,497", "18,387", "17,042", "14,220", "18,617", "18,551", "17,272", "14,263"],
+        "correct_answer": {"std": "13,999", "SB_505_00_0008": "14,220", "P300E": "14,263"}
+    },
+    {
+        "id": "lim_0005",
+        "tags": ["landing_gear_and_breaks", "speeds"],
+        "weights": "pounds",
+        "question": "Maximum speed at which the Landing Gear can be safely extended & retracted (Vlo)",
+        "possible_answers": ["250", "97", "91", "95", "205", "180", "170", "160", "182", "165", "150"],
+        "correct_answer": {"std": "250", "test": "1000"}
+    },
+    {
+        "id": "lim_0006",
+        "tags": ["landing_gear_and_breaks", "speeds"],
+        "weights": "pounds",
+        "question": "Maximum speed at which the airplane can be flown with the Landing Gear extended & locked (Vle)",
+        "possible_answers": ["250", "97", "91", "95", "205", "180", "170", "160", "182", "165", "150"],
+        "correct_answer": {"std": "250"}
+    },
+    {
+        "id": "lim_0007",
+        "tags": ["flight_controls", "speeds", "flaps"],
+        "weights": "pounds",
+        "question": "Minimum Control Speed (Vmc) for takeoff (takeoff flaps)",
+        "possible_answers": ["250", "97", "91", "95", "205", "180", "170", "160", "182", "165", "150"],
+        "correct_answer": {"std": "97"}
+    },
+    {
+        "id": "lim_0008",
+        "tags": ["flight_controls", "speeds", "ice_and_rain", "flaps"],
+        "weights": "pounds",
+        "question": "Minimum Control Speed (Vmc) for landing (landing flaps) in 'No Icing Conditions'",
+        "possible_answers": ["250", "97", "91", "95", "205", "180", "170", "160", "182", "165", "150"],
+        "correct_answer": {"std": "91"}
+    },
+    {
+        "id": "lim_0009",
+        "tags": ["flight_controls", "speeds", "ice_and_rain", "flaps"],
+        "weights": "pounds",
+        "question": "Minimum Control Speed (Vmc) for landing (landing flaps) in 'Icing Conditions'",
+        "possible_answers": ["250", "97", "91", "95", "205", "180", "170", "160", "182", "165", "150"],
+        "correct_answer": {"std": "95"}
+    },
+    {
+        "id": "lim_0010",
+        "tags": ["aircraft_general", "speeds"],
+        "weights": "pounds",
+        "question": "Operating Maneuvering Speed (Vo)",
+        "possible_answers": ["250", "97", "91", "95", "205", "180", "170", "160", "182", "165", "150"],
+        "correct_answer": {"std": "205"}
+    },
+    {
+        "id": "lim_0011",
+        "tags": ["flight_controls", "speeds", "flaps"],
+        "weights": "pounds",
+        "question": "Maximum Flap Extended Speed (Vfe) Flap 1",
+        "possible_answers": ["250", "97", "91", "95", "205", "180", "170", "160", "182", "165", "150"],
+        "correct_answer": {"std": "180"}
+    },
+    {
+        "id": "lim_0012",
+        "tags": ["flight_controls", "speeds", "flaps"],
+        "weights": "pounds",
+        "question": "Maximum Flap Extended Speed (Vfe) Flap 2",
+        "possible_answers": ["250", "97", "91", "95", "205", "180", "170", "160", "182", "165", "150"],
+        "correct_answer": {"std": "170"}
+    },
+    {
+        "id": "lim_0013",
+        "tags": ["flight_controls", "speeds", "flaps"],
+        "weights": "pounds",
+        "question": "Maximum Flap Extended Speed (Vfe) Flap 3",
+        "possible_answers": ["250", "97", "91", "95", "205", "180", "170", "160", "182", "165", "150"],
+        "correct_answer": {"std": "170"}
+    },
+    {
+        "id": "lim_0014",
+        "tags": ["flight_controls", "speeds", "flaps"],
+        "weights": "pounds",
+        "question": "Maximum Flap Extended Speed (Vfe) Flap Full",
+        "possible_answers": ["250", "97", "91", "95", "205", "180", "170", "160", "182", "165", "150"],
+        "correct_answer": {"std": "160"}
+    },
+    {
+        "id": "lim_0015",
+        "tags": ["flight_controls", "altitudes", "flaps"],
+        "weights": "pounds",
+        "question": "Maximum altitude with extended Flaps",
+        "possible_answers": ["18,000", "600", "1,000", "195", "220", "160", "10,000", "25,000"],
+        "correct_answer": {"std": "18,000"}
+    },
+    {
+        "id": "lim_0016",
+        "tags": ["landing_gear_and_breaks", "speeds", "tires"],
+        "weights": "pounds",
+        "question": "Maximum Tire Ground Speed",
+        "possible_answers": ["250", "97", "91", "95", "205", "180", "170", "160", "182", "165", "150"],
+        "correct_answer": {"std": "182"}
+    }
+]
